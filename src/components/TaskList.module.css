@@ -1,0 +1,32 @@
+.taskList {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.taskList > input[type="checkbox"] {
+  accent-color: var(--purple-100);
+}
+
+.taskList > button {
+  border: 0;
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  cursor: pointer;
+}
+
+.taskList > button:hover {
+  color: var(--red-500);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

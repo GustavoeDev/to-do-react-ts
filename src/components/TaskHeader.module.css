@@ -1,0 +1,44 @@
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.563rem;
+}
+
+.createHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createHeader a {
+  color: var(--blue-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.createHeader span {
+  background-color: var(--gray-400);
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 8px;
+}
+
+.concludeHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.concludeHeader a {
+  color: var(--purple-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.concludeHeader span {
+  background-color: var(--gray-400);
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 8px;
+}

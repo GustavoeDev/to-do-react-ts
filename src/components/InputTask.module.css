@@ -1,0 +1,40 @@
+.inputTask {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.063rem 0;
+  margin-top: -1.7rem;
+}
+
+.addTask {
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  border: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.addTask:focus {
+  outline: 1px solid var(--purple-900);
+  color: var(--gray-100);
+}
+
+.inputTask > button {
+  background-color: var(--blue-900);
+  color: var(--gray-100);
+  padding: 1rem;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inputTask > button:hover {
+  background-color: var(--blue-100);
+}
